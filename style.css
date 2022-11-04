@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap");
+
+    :root {
+      --main-bg-color--: #2874f0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2874f0;
+      font-family: "Tai Heritage Pro", serif;
+      height: 95px;
+    }
+
+    nav {
+      display: flex;
+    }
+
+    .image {
+      display: flex;
+      align-items: center;
+    }
+
+    .image img {
+      width: 140px;
+      padding: 0 25px;
+      height: 40px;
+    }
+
+    nav ul {
+      width: 268px;
+      height: 58px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      padding: 0 23px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      font-weight: bolder;
+    }
+
+    .search input {
+
+      width: 600px;
+      height: 25px;
+      border-radius: 5px;
+      margin: 47px 5px 19px 139px;
+      padding: 0 12px;
+      cursor: pointer;
+    }
+
+    .search button {
+      font-family: "Tai Heritage Pro", serif;
+      font-weight: 300;
+      height: 28px;
+      padding: 0 15px;
+      cursor: pointer;
+    }
+
+     ._1_3w1N{
+      background-color: white;
+      margin: 46px 57px;
+      padding: 0 15px;
+      border-radius: 9px;
+      height: 29px;
+      text-decoration: hotpink;
+      font-weight: 300;
+      cursor: pointer;
+
+    }
+
+    .container {
+      height: 1500px;
+      width: 100%;
+      position: relative;
+      color: #000;
+      line-height: 1.4;
+      text-decoration: none;
+      background-color: white;
+    }
+
+    .container .image img {
+      height: 300px;
+      width: 80vw;
+      padding: 0 156px;
+    }
+
+    .card-item img:hover {
+      padding: 0;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      cursor: pointer;
+      font-weight: bolder;
+    }
+
+    .card {
+      max-width: 90vw;
+      margin: auto;
+    }
+
+    .card-item {
+      display: inline-flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 60px;
+    }
+
+    .card-item .lines:hover {
+      cursor: pointer;
+      font-weight: bolder;
+    }
+
+    .card h3 {
+      font-family: "Tai Heritage Pro", serif;
+      margin: 5px 4vw;
+    }
+
+    footer {
+      height: 20px;
+      background-color: #2874f0;
+      color: white;
+      font-family: "Tai Heritage Pro", serif;
+      text-align: center;
+      padding: 15px;
+    }
